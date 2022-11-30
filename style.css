@@ -1,0 +1,273 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header h1{
+    margin: 10px 0px 10px 0px;
+    text-shadow: 3px 4px 6px black;
+    padding: 10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    /* text-shadow: 2px black; */
+    /* padding: 10px; */
+
+}
+header{
+    background-image: url('img/5.jpg');
+    /* background-size: 100%; */
+    padding: 40px;
+}
+
+#home{
+    background-color: white;
+    color:black;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(255, 254, 254);
+    padding: 13px;
+    margin-left: 4px;
+    text-align: center;
+    font-size: 15px;
+
+}
+nav{
+    padding: 15px;
+    background-color: rgb(0, 0, 0);
+}
+
+main{
+    text-align: center;
+}
+
+#fg h2{
+    text-align: center;
+    padding: 30px;
+    font-size: 40px;
+    color: black;
+    
+}
+
+#fg img{
+    padding: 2px;
+}
+
+#fg{
+    padding: 30px;
+    text-align: center;
+    /* background-color: rgb(255, 0, 0); */
+}
+#fg img:hover{
+    border: 2px solid rgb(255, 255, 255);
+}
+
+#ag h2{
+    text-shadow: 3px 4px 7px rgb(0, 0, 0);
+    font-size: 30px;
+    padding: 40px;
+    color: white;
+}
+
+#ag{
+    padding: 40px;
+    background-color: black;
+    text-align: center;
+}
+
+#ag img:hover{
+    border: 3px solid rgb(255, 0, 0);
+    /* background-color: lightgrey; */
+}
+
+#ug h2{
+    text-align: center;
+    padding: 40px;
+    font-size: 40px;
+    /* text-decoration: underline; */
+}
+
+#ug{
+    padding: 40px;
+    text-align: center;
+}
+
+#mp{
+    background-color: black;
+    padding: 40px;
+
+}
+#mp h2{
+    text-align: center;
+    font-size: 35px;
+    padding: 40px;
+    color: white;
+}
+
+#mp img{
+    box-shadow: 3px 3px 3px 2px grey;
+}
+
+#mp h3{
+    text-align: center;
+    color: white;
+    margin: 10px;
+    padding: 20px;
+}
+#mp img:hover{
+    border: 3px solid grey;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    margin-left: 9px;
+    text-align: center;
+    padding: 10px;
+
+
+}
+
+footer a:hover{
+    background-color: white;
+    color: black;
+}
+
+footer{
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+}
+
+#sp::first-line{
+    color: red;
+}
+
+p::first-letter{
+    color: white;
+}
+
+section>h1{
+    text-decoration: dashed;
+
+}
+
+nav a:hover{
+    background-color: white;
+    color: black;
+    
+}
+
+.re{
+    padding: 20px;
+    margin: 50px auto;
+    width: 450px;
+    height: 450px;
+    background-image: url("C:/Users/Admin/Desktop/css files/img/2.jpg");
+/*    background-color: red;*/
+    box-shadow: 5px 10px 15px grey;
+}
+
+.re textarea{
+    font-style: sans-serif;
+    font-size: 13px;
+    border: none;
+}
+
+.re h1{
+    font-size: 40px;
+    color: white;
+}
+
+.re button{
+    margin: 10px;
+    padding: 10px 20px;
+    color: white;
+    background-color: red;
+    border-radius: 20px;
+    border:none;
+    font-size
+}
+
+.US{
+    padding: 50px;
+     background-color:black;
+     color: white; 
+}
+
+.US h1{
+    font-size: 30px;
+    text-align: left;
+}
+.US h1,p{
+    padding: 10px;
+    line-height: 20px;
+}
+.US p{
+    text-align: justify;
+    font-family: sans-serif;
+}
+
+.contact{
+    color: white;
+    /* background-color: rgb(68, 66, 66); */
+    padding: 40px;
+    background-image: url(img/5.jpg);
+}
+
+.log{
+/*    background-color: rgba(0, 0, 0, 0.4);*/
+border: none;
+    color: white;
+    padding: 20px;
+    margin-bottom: 80px;
+    margin-top: 20px;
+}
+
+.log form{
+/*    border-radius: 10px;*/
+    box-shadow: 5px 10px 15px black;
+    padding-top: 30px;
+    width: 450px;
+    height: 500px;
+    margin: 0 auto;
+    background-image: url("C:/Users/Admin/Desktop/css files/img/6.jpg");
+
+/*    background-color: black;*/
+
+}
+
+.log h1{
+    padding-top: 20px;
+    font-size: 35px;
+
+}
+
+.log span{
+    font-size: 20px;
+    text-align: left;
+}
+
+.log input{
+    padding: 5px 20px 5px 10px;
+    margin-top: 20px;
+    border-radius: 18px;
+    border: none;
+}
+
+.sub{
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+    margin-top: 15px;
+    background-color: red;
+    color: white;
+    margin: 10px;
+    font-size: 18px;
+
+}
