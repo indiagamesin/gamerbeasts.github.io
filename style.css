@@ -169,7 +169,7 @@ nav a:hover{
     margin: 50px auto;
     width: 450px;
     height: 450px;
-    background-image: url("C:/Users/Admin/Desktop/css files/img/2.jpg");
+    background-image: url("img/2.jpg");
 /*    background-color: red;*/
     box-shadow: 5px 10px 15px grey;
 }
@@ -237,7 +237,7 @@ border: none;
     width: 450px;
     height: 500px;
     margin: 0 auto;
-    background-image: url("C:/Users/Admin/Desktop/css files/img/6.jpg");
+    background-image: url("img/6.jpg");
 
 /*    background-color: black;*/
 
